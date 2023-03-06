@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1{
+   margin-bottom: 1rem;
+   margin-top: 2rem;
+   color: white;
+   font-size: 100px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    
+}
+
+.main1{
+    width: 15rem;
+    height: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;  
+   
+   
+}
+
+.selectVal1{
+    background-color: rgb(254, 255, 254);
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+    
+}
+
+.valInput1{
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+    padding-left: 5px;
+}
+.selectVal2{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+}
+
+.valInput2{
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+    padding-left: 5px;
+}
+
+
