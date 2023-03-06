@@ -17,7 +17,20 @@ function currency() {
         }
   
         function convert(i, j) {
-          input[i].value = (input[j].value * rates[select[i].value]) / rates[select[j].value];
+
+           input[i].value = (input[j].value * rates[select[i].value]) / rates[select[j].value];
+
+           value1 =  input[i].value;
+           value2 =  input[j].value;
+
+            if(value1 == 0 || value2 == 0 ){
+               
+                input[i].value = '';
+                input[j].value = '';
+               
+            }
+           
+         
         }
   
         input[0].addEventListener("keyup", () => convert(1, 0));
